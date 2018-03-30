@@ -1,0 +1,6 @@
+<map id="EV3UartGenerator::Framing::frame_cmd_speed_message" name="EV3UartGenerator::Framing::frame_cmd_speed_message">
+<area shape="rect" id="node2" href="$namespaceEV3UartGenerator_1_1Framing.html#aa1e21d2a26a5c6841b39869f8dd3b7f3" title="EV3UartGenerator::Framing\l::checksum" alt="" coords="269,5,471,47"/>
+<area shape="rect" id="node3" href="$namespaceEV3UartGenerator_1_1SimpleEndian.html#a77144849a86f05f0448a7ba73244ff24" title="EV3UartGenerator::Simple\lEndian::htole32" alt="" coords="273,71,467,112"/>
+<area shape="rect" id="node4" href="$namespaceEV3UartGenerator_1_1Framing.html#ac17af67d5387a048afe688c7a5e9a722" title="EV3UartGenerator::Framing\l::length_code" alt="" coords="269,136,471,177"/>
+<area shape="rect" id="node5" href="$namespaceEV3UartGenerator_1_1Framing.html#a533f16824a9117ff0061fcad42a49db1" title="EV3UartGenerator::Framing\l::log2" alt="" coords="519,136,720,177"/>
+</map>

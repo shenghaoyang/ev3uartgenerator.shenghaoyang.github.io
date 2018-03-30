@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$namespaceEV3UartGenerator_1_1Framing.html#a16c2462a349f2df3228d719636b92451" title="EV3UartGenerator::Framing\l::frame_cmd_modes_message" alt="" coords="109,136,330,177"/>
+<area shape="rect" id="node6" href="$namespaceEV3UartGenerator_1_1Framing.html#a649c71c92cf5d96064c2c761cc00b8d0" title="EV3UartGenerator::Framing\l::frame_cmd_speed_message" alt="" coords="111,332,327,373"/>
+<area shape="rect" id="node8" href="$namespaceEV3UartGenerator_1_1Framing.html#a55a5b35fd2f60263f4d6e913c22a40ec" title="EV3UartGenerator::Framing\l::frame_cmd_type_message" alt="" coords="116,201,323,243"/>
+<area shape="rect" id="node9" href="$namespaceEV3UartGenerator_1_1Framing.html#ad7143ab7e9c8f9489c44cca644207556" title="EV3UartGenerator::Framing\l::frame_info_message_format" alt="" coords="110,5,329,47"/>
+<area shape="rect" id="node10" href="$namespaceEV3UartGenerator_1_1Framing.html#aed8d65dab9b2950167108bdce6996abd" title="EV3UartGenerator::Framing\l::frame_info_message_name" alt="" coords="114,267,325,308"/>
+<area shape="rect" id="node12" href="$namespaceEV3UartGenerator_1_1Framing.html#a8e829d0a45b135daa0d9b66f711641c7" title="EV3UartGenerator::Framing\l::frame_info_message_span" alt="" coords="117,397,322,439"/>
+<area shape="rect" id="node13" href="$namespaceEV3UartGenerator_1_1Framing.html#a6a56433cbb9c817c69210bca681c9ae7" title="EV3UartGenerator::Framing\l::frame_info_message_symbol" alt="" coords="108,71,331,112"/>
+<area shape="rect" id="node14" href="$namespaceEV3UartGenerator_1_1Framing.html#aae6e5b5ff4999ba2b42a7112fdaf9b1d" title="EV3UartGenerator::Framing\l::frame_sys_message" alt="" coords="119,463,320,504"/>
+<area shape="rect" id="node3" href="$namespaceEV3UartGenerator_1_1Framing.html#ac17af67d5387a048afe688c7a5e9a722" title="EV3UartGenerator::Framing\l::length_code" alt="" coords="379,136,580,177"/>
+<area shape="rect" id="node5" href="$namespaceEV3UartGenerator_1_1Framing.html#aa1e21d2a26a5c6841b39869f8dd3b7f3" title="EV3UartGenerator::Framing\l::checksum" alt="" coords="379,201,580,243"/>
+<area shape="rect" id="node4" href="$namespaceEV3UartGenerator_1_1Framing.html#a533f16824a9117ff0061fcad42a49db1" title="EV3UartGenerator::Framing\l::log2" alt="" coords="628,201,829,243"/>
+<area shape="rect" id="node7" href="$namespaceEV3UartGenerator_1_1SimpleEndian.html#a77144849a86f05f0448a7ba73244ff24" title="EV3UartGenerator::Simple\lEndian::htole32" alt="" coords="383,365,576,407"/>
+<area shape="rect" id="node11" href="$namespaceEV3UartGenerator_1_1Framing.html#a42cb2a36df80797ec68194086a996543" title="EV3UartGenerator::Framing\l::insert_padding" alt="" coords="379,267,580,308"/>
+</map>
