@@ -452,7 +452,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">dest</td><td>destination buffer </td></tr>
     <tr><td class="paramname">data</td><td>data to write to the sensor </td></tr>
-    <tr><td class="paramname">len</td><td>length of array of data to write to the sensor [1, 32] </td></tr>
+    <tr><td class="paramname">len</td><td>length of array of data to write to the sensor [PAYLOAD_MIN, PAYLOAD_EV3_TO_SENSOR_MAX] </td></tr>
   </table>
   </dd>
 </dl>
@@ -520,7 +520,7 @@ Here is the call graph for this function:</div>
     <tr><td class="paramname">dest</td><td>destination buffer </td></tr>
     <tr><td class="paramname">mode</td><td>mode index [0, 7] </td></tr>
     <tr><td class="paramname">data</td><td>data to be sent </td></tr>
-    <tr><td class="paramname">len</td><td>length of data to be sent [1, 32] </td></tr>
+    <tr><td class="paramname">len</td><td>length of data to be sent, with length in range [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX] </td></tr>
   </table>
   </dd>
 </dl>
@@ -608,7 +608,7 @@ Here is the call graph for this function:</div>
 <tr class="markdownTableBody" class="markdownTableRowEven">
 <td class="markdownTableBodyNone">S16  </td><td class="markdownTableBodyNone">[1, 16]   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Sr32  </td><td class="markdownTableBodyNone">[1, 8]   </td></tr>
+<td class="markdownTableBodyNone">S32  </td><td class="markdownTableBodyNone">[1, 8]   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
 <td class="markdownTableBodyNone">F32  </td><td class="markdownTableBodyNone">[1, 8]   </td></tr>
 </table>
@@ -677,7 +677,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">dest</td><td>destination buffer </td></tr>
     <tr><td class="paramname">mode</td><td>mode index [0, 7] </td></tr>
-    <tr><td class="paramname">name</td><td>mode name [1 to 32 ASCII byte characters in length] </td></tr>
+    <tr><td class="paramname">name</td><td>mode name, a character sequence encoded in 1-byte ASCII representation, with terminating null, with length (not inclusive of null byte) in range [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX] </td></tr>
   </table>
   </dd>
 </dl>
@@ -817,7 +817,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">dest</td><td>destination buffer </td></tr>
     <tr><td class="paramname">mode</td><td>mode index [0 - 7] </td></tr>
-    <tr><td class="paramname">symbol</td><td>symbol text representation string [1 to 8 ASCII bytes in length] </td></tr>
+    <tr><td class="paramname">symbol</td><td>symbol text representation string, a string of characters encoded in 1-byte ASCII with terminating null byte, with length (not including terminating null) in range [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX] </td></tr>
   </table>
   </dd>
 </dl>
@@ -926,7 +926,7 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dest</td><td>address of the byte right after the end of the payload segment </td></tr>
-    <tr><td class="paramname">len</td><td>length of payload segment [1, 32] </td></tr>
+    <tr><td class="paramname">len</td><td>length of payload segment [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX] </td></tr>
   </table>
   </dd>
 </dl>
@@ -934,7 +934,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="framing_8cpp_source.html#l00211">211</a> of file <a class="el" href="framing_8cpp_source.html">framing.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="framing_8cpp_source.html#l00211">EV3UartGenerator::Framing::insert_padding()</a>, and <a class="el" href="framing_8hpp_source.html#l00249">EV3UartGenerator::Framing::log2()</a>.</p>
+<p class="reference">References <a class="el" href="framing_8cpp_source.html#l00211">EV3UartGenerator::Framing::insert_padding()</a>, and <a class="el" href="framing_8hpp_source.html#l00256">EV3UartGenerator::Framing::log2()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="framing_8cpp_source.html#l00211">EV3UartGenerator::Framing::insert_padding()</a>.</p>
 <div class="dynheader">
